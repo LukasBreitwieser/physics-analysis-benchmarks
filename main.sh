@@ -3,9 +3,12 @@
 set -ex
 
 SCRIPT_DIR=$(readlink -e "$(dirname "${BASH_SOURCE[0]}")")
-cd "$SCRIPT_DIR"
+cd "$SCRIPT_DIR/driver"
 
-./prequisites.sh
+git submodule init
+git submodule update
+
+./prerequisites.sh
 ./download-data.sh
 # build ROOT
 ./configure.sh
