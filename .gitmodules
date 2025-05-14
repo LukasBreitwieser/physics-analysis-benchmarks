@@ -1,0 +1,6 @@
+[submodule "root"]
+	path = root
+	url = https://github.com/root-project/root.git
+[submodule "opendata-benchmarks"]
+	path = opendata-benchmarks
+	url = git@github.com:LukasBreitwieser/opendata-benchmarks.git
