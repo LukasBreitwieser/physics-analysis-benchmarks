@@ -1,2 +1,2 @@
-Execute  `./main.sh` to setup everyting and run all benchmarks
+Execute  `./main.sh` to setup everything and run all benchmarks
 
