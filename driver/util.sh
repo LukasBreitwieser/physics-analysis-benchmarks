@@ -52,6 +52,6 @@ echo "INSTALL_DIR:   $INSTALL_DIR"
 echo ""
 
 # Returns the number of CPU cores including hyperthreads
-function CPUCount {
+function CpuCount {
   grep -c ^processor /proc/cpuinfo
 }
