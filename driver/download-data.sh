@@ -6,6 +6,7 @@ SCRIPT_DIR=$(readlink -e "$(dirname "${BASH_SOURCE[0]}")")
 cd "$SCRIPT_DIR"
 
 . util.sh
+mkdir -p "$PROJECT_ROOT_DIR/data"
 cd "$PROJECT_ROOT_DIR/data"
 
 if [ ! -f Run2012B_SingleMu.root ]; then

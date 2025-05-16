@@ -5,7 +5,6 @@ cd "$SCRIPT_DIR"
 
 . ../util.sh
 
-. "$(dirname $(which spack))/../share/spack/setup-env.sh"
 spack load hpctoolkit
 
 . "$INSTALL_DIR/bin/thisroot.sh"

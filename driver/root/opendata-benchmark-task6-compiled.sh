@@ -7,6 +7,8 @@ cd "$SCRIPT_DIR"
 
 . "$INSTALL_DIR/bin/thisroot.sh"
 
+spack load hpctoolkit
+
 set -ex
 cd ../../opendata-benchmarks/tasks/6/
 rm -r hpctoolkit-* || true
